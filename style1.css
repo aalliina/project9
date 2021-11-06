@@ -1,0 +1,108 @@
+@media(min-width: 500px){
+    .container1
+    {   display: flex;
+        flex-direction: row;
+        align-items: stretch;
+
+    }
+}
+ body{
+     background-color: rgb(155, 228, 224);
+ }
+ .header{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(113, 199, 187);
+    margin: 0;
+}
+.logo{
+    cursor: pointer;
+}
+.slogan {
+    font-size: 50px;
+}
+ .container1 div, .container2 div{
+     padding: 10px;
+ }
+.container2{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+}
+.box1{
+    flex: 1;
+}
+.box2{
+    flex: 2;
+}
+.box3{
+    flex: 1;
+}
+.box{
+    flex-basis: 20%;
+}
+.container2{
+    justify-content: center;
+}
+.nav-links a{
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    flex-basis: 30%;
+   }
+   .nav-links{
+       display: flex;
+       list-style: none;
+       flex-direction: column;
+   }
+   .nav-links {
+       padding: 0px;
+   }
+   .nav-links a {
+       transition: color 0.3s ease 0s;
+   }
+   .nav-links li a:hover{
+       color: rgb(22, 85, 61);
+   }
+   .g,.a,.b,.c,.d,.e {
+    padding:25px;
+    background-color: rgb(58, 165, 184);
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease 0s;
+}
+.g:hover{
+background-color: rgb(45, 141, 149);
+}
+.a:hover{
+    background-color: rgb(45, 141, 149);
+}
+.b:hover{
+    background-color: rgb(45, 141, 149);
+}
+.c:hover{
+    background-color: rgb(45, 141, 149);
+}
+.d:hover{
+    background-color: rgb(45, 141, 149);
+}
+.e:hover{
+    background-color: rgb(45, 141, 149);
+}
+.footer{
+    background-color: rgb(134, 206, 196);
+    padding-bottom: 50px;
+    padding-top: 50px;
+    color: rgb(0, 41, 22);
+    text-align: center;
+ }
+ .box3 img{
+width: 250px;
+ }
+ .box3 a{
+    color: black;
+    text-decoration: none;
+ }
+ 
